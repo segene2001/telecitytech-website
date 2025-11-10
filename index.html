@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telecity Technologies - IT Consulting & AI Infrastructure for Africa</title>
+    <meta name="description" content="Expert IT consulting and Africa's first GPU-powered AI infrastructure. Secure network solutions and sovereign AI data center services.">
+    <meta property="og:title" content="Telecity Technologies - IT Consulting & AI Infrastructure">
+    <meta property="og:description" content="Leading IT consulting and AI infrastructure provider in Africa">
+    <meta property="og:type" content="website">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-white">
+    
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center">
+                    <a href="/" class="flex items-center space-x-3">
+                        <div class="w-10 h-10 gradient-bg rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-xl">T</span>
+                        </div>
+                        <span class="text-2xl font-bold gradient-text">Telecity Technologies</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="/" class="text-gray-700 hover:text-purple-600 font-medium transition">Home</a>
+                    <a href="/services.html" class="text-gray-700 hover:text-purple-600 font-medium transition">Services</a>
+                    <a href="/ai-initiative.html" class="text-gray-700 hover:text-purple-600 font-medium transition">AI Initiative</a>
+                    <a href="/about.html" class="text-gray-700 hover:text-purple-600 font-medium transition">About</a>
+                    <a href="/contact.html" class="bg-purple-600 text-white px-6 py-2 rounded-lg hover:bg-purple-700 transition">Contact Us</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-gray-700">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="px-4 py-4 space-y-3">
+                <a href="/" class="block text-gray-700 hover:text-purple-600 font-medium">Home</a>
+                <a href="/services.html" class="block text-gray-700 hover:text-purple-600 font-medium">Services</a>
+                <a href="/ai-initiative.html" class="block text-gray-700 hover:text-purple-600 font-medium">AI Initiative</a>
+                <a href="/about.html" class="block text-gray-700 hover:text-purple-600 font-medium">About</a>
+                <a href="/contact.html" class="block bg-purple-600 text-white px-6 py-2 rounded-lg text-center">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 px-4 gradient-bg text-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="inline-block bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
+                        <span class="text-sm font-semibold">🚀 IT Consulting & AI Infrastructure</span>
+                    </div>
+                    <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+                        Empowering Africa's Digital Future
+                    </h1>
+                    <p class="text-xl mb-8 text-purple-100 leading-relaxed">
+                        Expert IT consulting for businesses and pioneering Africa's first sovereign AI infrastructure. Secure, compliant, and innovative technology solutions.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="/contact.html" class="bg-white text-purple-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition inline-flex items-center">
+                            Get Started
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        <a href="/ai-initiative.html" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition">
+                            View AI Initiative
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 card-hover">
+                            <i class="fas fa-shield-alt text-4xl mb-4"></i>
+                            <h3 class="text-xl font-bold mb-2">Cybersecurity</h3>
+                            <p class="text-purple-100">Robust security solutions</p>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 card-hover mt-8">
+                            <i class="fas fa-cloud text-4xl mb-4"></i>
+                            <h3 class="text-xl font-bold mb-2">Cloud Solutions</h3>
+                            <p class="text-purple-100">Scalable infrastructure</p>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 card-hover">
+                            <i class="fas fa-network-wired text-4xl mb-4"></i>
+                            <h3 class="text-xl font-bold mb-2">Network Design</h3>
+                            <p class="text-purple-100">Optimized connectivity</p>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 card-hover mt-8">
+                            <i class="fas fa-brain text-4xl mb-4"></i>
+                            <h3 class="text-xl font-bold mb-2">AI Infrastructure</h3>
+                            <p class="text-purple-100">Sovereign AI platform</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured: AI Initiative -->
+    <section class="py-20 px-4 bg-gradient-to-r from-blue-50 to-purple-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden">
+                <div class="grid md:grid-cols-2">
+                    <div class="p-12">
+                        <div class="inline-block bg-purple-100 text-purple-600 px-4 py-2 rounded-full mb-6">
+                            <span class="text-sm font-bold">🌍 FEATURED INITIATIVE</span>
+                        </div>
+                        <h2 class="text-4xl font-bold mb-6">Sovereign AI Infrastructure Hub</h2>
+                        <p class="text-lg text-gray-700 mb-6">
+                            Africa's first GPU-powered, NDPR-compliant AI data center. Building the foundation for regional AI innovation and data sovereignty.
+                        </p>
+                        <div class="grid grid-cols-2 gap-4 mb-8">
+                            <div class="text-center p-4 bg-purple-50 rounded-lg">
+                                <div class="text-3xl font-bold gradient-text">$5-7M</div>
+                                <div class="text-sm text-gray-600">Funding Target</div>
+                            </div>
+                            <div class="text-center p-4 bg-purple-50 rounded-lg">
+                                <div class="text-3xl font-bold gradient-text">600M+</div>
+                                <div class="text-sm text-gray-600">Market Users</div>
+                            </div>
+                            <div class="text-center p-4 bg-purple-50 rounded-lg">
+                                <div class="text-3xl font-bold gradient-text">40%</div>
+                                <div class="text-sm text-gray-600">Latency Cut</div>
+                            </div>
+                            <div class="text-center p-4 bg-purple-50 rounded-lg">
+                                <div class="text-3xl font-bold gradient-text">40:1</div>
+                                <div class="text-sm text-gray-600">ROI</div>
+                            </div>
+                        </div>
+                        <a href="/ai-initiative.html" class="inline-flex items-center text-purple-600 font-semibold hover:text-purple-700">
+                            Learn More About Our AI Initiative
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                    <div class="bg-gradient-to-br from-purple-600 to-blue-600 p-12 flex items-center justify-center">
+                        <div class="text-white text-center">
+                            <i class="fas fa-server text-8xl mb-6 opacity-90"></i>
+                            <h3 class="text-2xl font-bold mb-4">NVIDIA DGX/H100</h3>
+                            <p class="text-purple-100">Powered by cutting-edge GPU technology</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="py-20 px-4 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Our Services</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Comprehensive IT solutions tailored for small businesses and enterprises across Africa.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="card-hover bg-white p-8 rounded-xl shadow-lg border-2 border-gray-100">
+                    <div class="w-16 h-16 bg-red-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-shield-alt text-3xl text-red-600"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Cybersecurity</h3>
+                    <p class="text-gray-600 mb-4">
+                        Protect your business with enterprise-grade security solutions, threat detection, and compliance management.
+                    </p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-600 mr-2"></i>
+                            Security Audits
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-600 mr-2"></i>
+                            Threat Monitoring
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-600 mr-2"></i>
+                            Incident Response
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card-hover bg-white p-8 rounded-xl shadow-lg border-2 border-gray-100">
+                    <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-network-wired text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Network Design</h3>
+                    <p class="text-gray-600 mb-4">
+                        Design and implement robust network infrastructure optimized for performance and reliability.
+                    </p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-600 mr-2"></i>
+                            Network Architecture
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-600 mr-2"></i>
+                            Infrastructure Setup
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-600 mr-2"></i>
+                            Performance Optimization
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card-hover bg-white p-8 rounded-xl shadow-lg border-2 border-gray-100">
+                    <div class="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-cloud text-3xl text-green-600"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Cloud Solutions</h3>
+                    <p class="text-gray-600 mb-4">
+                        Migrate to the cloud with confidence. Scalable, secure, and cost-effective cloud infrastructure.
+                    </p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-600 mr-2"></i>
+                            Cloud Migration
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-600 mr-2"></i>
+                            Infrastructure Management
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-600 mr-2"></i>
+                            Cost Optimization
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card-hover bg-white p-8 rounded-xl shadow-lg border-2 border-gray-100">
+                    <div class="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-brain text-3xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">AI Infrastructure</h3>
+                    <p class="text-gray-600 mb-4">
+                        Access Africa's first sovereign AI platform. GPU-powered, NDPR-compliant AI services.
+                    </p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-600 mr-2"></i>
+                            AI Model Deployment
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-600 mr-2"></i>
+                            Data Sovereignty
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-600 mr-2"></i>
+                            Low-Latency Inference
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card-hover bg-white p-8 rounded-xl shadow-lg border-2 border-gray-100">
+                    <div class="w-16 h-16 bg-yellow-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-users text-3xl text-yellow-600"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">IT Consulting</h3>
+                    <p class="text-gray-600 mb-4">
+                        Strategic IT guidance to help your business leverage technology for growth and efficiency.
+                    </p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-600 mr-2"></i>
+                            Technology Strategy
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-600 mr-2"></i>
+                            Digital Transformation
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-600 mr-2"></i>
+                            Process Optimization
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card-hover bg-white p-8 rounded-xl shadow-lg border-2 border-gray-100">
+                    <div class="w-16 h-16 bg-orange-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-headset text-3xl text-orange-600"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Managed Services</h3>
+                    <p class="text-gray-600 mb-4">
+                        24/7 monitoring and management of your IT infrastructure. Focus on your business, we handle the tech.
+                    </p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-600 mr-2"></i>
+                            24/7 Monitoring
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-600 mr-2"></i>
+                            Proactive Maintenance
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-600 mr-2"></i>
+                            Help Desk Support
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="/services.html" class="inline-flex items-center bg-purple-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-purple-700 transition">
+                    View All Services
+                    <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-20 px-4 bg-gray-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Why Choose Telecity Technologies</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Over a decade of experience delivering exceptional IT solutions to businesses across Africa.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-20 h-20 gradient-bg rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-award text-3xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">10+ Years Experience</h3>
+                    <p class="text-gray-600">
+                        Proven track record of successful IT implementations
+                    </p>
+                </div>
+
+                <div class="text-center">
+                    <div class="w-20 h-20 gradient-bg rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-users text-3xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Expert Team</h3>
+                    <p class="text-gray-600">
+                        Certified professionals with deep technical expertise
+                    </p>
+                </div>
+
+                <div class="text-center">
+                    <div class="w-20 h-20 gradient-bg rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-clock text-3xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">24/7 Support</h3>
+                    <p class="text-gray-600">
+                        Round-the-clock assistance when you need it most
+                    </p>
+                </div>
+
+                <div class="text-center">
+                    <div class="w-20 h-20 gradient-bg rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-map-marker-alt text-3xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Local Presence</h3>
+                    <p class="text-gray-600">
+                        Based in Lagos, serving businesses across Africa
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 px-4 gradient-bg text-white">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6">Ready to Transform Your IT Infrastructure?</h2>
+            <p class="text-xl mb-8 text-purple-100">
+                Let's discuss how we can help your business leverage technology for growth and innovation.
+            </p>
+            <div class="flex flex-wrap gap-4 justify-center">
+                <a href="/contact.html" class="bg-white text-purple-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition inline-flex items-center">
+                    Schedule a Consultation
+                    <i class="fas fa-calendar ml-2"></i>
+                </a>
+                <a href="mailto:ofatokun@telecitytech.com" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition inline-flex items-center">
+                    Email Us
+                    <i class="fas fa-envelope ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div class="w-10 h-10 gradient-bg rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-xl">T</span>
+                        </div>
+                        <span class="text-xl font-bold">Telecity Technologies</span>
+                    </div>
+                    <p class="text-gray-400">
+                        Empowering Africa's digital future through expert IT consulting and sovereign AI infrastructure.
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="/services.html#cybersecurity" class="text-gray-400 hover:text-white transition">Cybersecurity</a></li>
+                        <li><a href="/services.html#network" class="text-gray-400 hover:text-white transition">Network Design</a></li>
+                        <li><a href="/services.html#cloud" class="text-gray-400 hover:text-white transition">Cloud Solutions</a></li>
+                        <li><a href="/services.html#ai" class="text-gray-400 hover:text-white transition">AI Infrastructure</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Company</h4>
+                    <ul class="space-y-2">
+                        <li><a href="/about.html" class="text-gray-400 hover:text-white transition">About Us</a></li>
+                        <li><a href="/ai-initiative.html" class="text-gray-400 hover:text-white transition">AI Initiative</a></li>
+                        <li><a href="/contact.html" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <a href="mailto:ofatokun@telecitytech.com" class="hover:text-white transition">ofatokun@telecitytech.com</a>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            Lagos, Nigeria
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-clock mr-2"></i>
+                            Mon-Fri: 9AM - 5PM
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Telecity Technologies. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
